@@ -9,7 +9,6 @@ class ProductsService {
     this.productos = [];
     this.generate();
   }
-
   generate() {
     const limit = 5;
     for (let index = 0; index < limit; index++) {
